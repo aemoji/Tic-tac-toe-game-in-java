@@ -41,7 +41,7 @@ public class Tacgame{
 	    if(wincheck(board)){ System.out.println("player win"); break;}
         if(wincheckcpu(board)){ System.out.println("cpu win"); break;}
 	    
-	    if(cnt>=4) System.out.println("Game Over");
+	    if(t==0) System.out.println("Game Over");
 	    
 	}
 		
